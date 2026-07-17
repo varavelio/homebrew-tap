@@ -3,25 +3,25 @@ class VetaNext < Formula
   desc "Veta static site generator"
   homepage "https://github.com/varavelio/veta"
   license "MIT"
-  version "0.1.0-alpha.4"
+  version "0.1.0-alpha.5"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/varavelio/veta/releases/download/v0.1.0-alpha.4/veta_darwin_arm64.tar.gz"
-      sha256 "98e3f9c82297fd1526dba0e027608b3e22811a1c9333fa636bccae9662ddcb32"
+      url "https://github.com/varavelio/veta/releases/download/v0.1.0-alpha.5/veta_darwin_arm64.tar.gz"
+      sha256 "e7501566e8c375a0f132a39d3f6d4fd7c75855a1159ee483404be660f6e7ef6b"
     else
-      url "https://github.com/varavelio/veta/releases/download/v0.1.0-alpha.4/veta_darwin_amd64.tar.gz"
-      sha256 "b1114808fda44a51d6c94436a5b7bf54a15471e6598274886d009d1bce0fa9cf"
+      url "https://github.com/varavelio/veta/releases/download/v0.1.0-alpha.5/veta_darwin_amd64.tar.gz"
+      sha256 "b56aadc8643d785cee890e853a15e040a7a1a4c6c3f6ad5982a6d41aa5978ab0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/varavelio/veta/releases/download/v0.1.0-alpha.4/veta_linux_arm64.tar.gz"
-      sha256 "242e60141542a24af03af1c831ed68425258a18ffd28da41e6ca143c5e3a8814"
+      url "https://github.com/varavelio/veta/releases/download/v0.1.0-alpha.5/veta_linux_arm64.tar.gz"
+      sha256 "306e1ae5c28a3659ef01419554bc93c88e21b1962db207dd5d1f7102e63758ba"
     else
-      url "https://github.com/varavelio/veta/releases/download/v0.1.0-alpha.4/veta_linux_amd64.tar.gz"
-      sha256 "dfa95a40170f2709f38a1ebf736def2c433b2b96af5a509e8bdb0cecb0bcafd9"
+      url "https://github.com/varavelio/veta/releases/download/v0.1.0-alpha.5/veta_linux_amd64.tar.gz"
+      sha256 "d261b9835dabe0563645829733c047d0d30f4f6572b394b95b9697dd7d80f814"
     end
   end
 
