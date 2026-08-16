@@ -13,3 +13,8 @@ Official Homebrew repository for Varavel tools
 
 - To install run: `brew install varavelio/tap/veta`
 - To update run: `brew update && brew upgrade veta`
+
+### Zen IdP
+
+- To install run: `brew install varavelio/tap/zen-idp`
+- To update run: `brew update && brew upgrade zen-idp`
