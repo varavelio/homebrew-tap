@@ -4,17 +4,22 @@ Official Homebrew repository for Varavel tools
 
 ## Tools installation
 
-### VDL
+### Rienda
 
-- To install run: `brew install varavelio/tap/vdl`
-- To update run: `brew update && brew upgrade vdl`
+- To install run: `brew install varavelio/tap/rienda`
+- To update run: `brew update && brew upgrade rienda`
+
+### Zen IdP
+
+- To install run: `brew install varavelio/tap/zen-idp`
+- To update run: `brew update && brew upgrade zen-idp`
 
 ### Veta
 
 - To install run: `brew install varavelio/tap/veta`
 - To update run: `brew update && brew upgrade veta`
 
-### Zen IdP
+### VDL
 
-- To install run: `brew install varavelio/tap/zen-idp`
-- To update run: `brew update && brew upgrade zen-idp`
+- To install run: `brew install varavelio/tap/vdl`
+- To update run: `brew update && brew upgrade vdl`
