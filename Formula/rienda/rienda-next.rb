@@ -3,25 +3,25 @@ class RiendaNext < Formula
   desc "Simple, declarative, multi-agent LLM harness"
   homepage "https://github.com/varavelio/rienda"
   license "MIT"
-  version "0.1.0-alpha.11"
+  version "0.1.0-alpha.12"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/varavelio/rienda/releases/download/v0.1.0-alpha.11/rienda_darwin_arm64.tar.gz"
-      sha256 "1ae8d16272a3dd01435d0b0a450fe133e470479c3bcf8839a3f2099696d79b3c"
+      url "https://github.com/varavelio/rienda/releases/download/v0.1.0-alpha.12/rienda_darwin_arm64.tar.gz"
+      sha256 "99addf69d749fa5e90b7a6cc497517ecc1da0c1cd01775325b96c284127f319c"
     else
-      url "https://github.com/varavelio/rienda/releases/download/v0.1.0-alpha.11/rienda_darwin_amd64.tar.gz"
-      sha256 "468be270d4219bb04d726b0497b417327a735bd2f342f721bf0b0d5787aa2721"
+      url "https://github.com/varavelio/rienda/releases/download/v0.1.0-alpha.12/rienda_darwin_amd64.tar.gz"
+      sha256 "fe36ed9e7ce6415dad082c80febf267bb751a35709bb7407b0c31d49a5765cd8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/varavelio/rienda/releases/download/v0.1.0-alpha.11/rienda_linux_arm64.tar.gz"
-      sha256 "6c9be5564776f54e2d489bbc77723fe3d1300a4466598b2af51a6255a2ccc11b"
+      url "https://github.com/varavelio/rienda/releases/download/v0.1.0-alpha.12/rienda_linux_arm64.tar.gz"
+      sha256 "e994f1d73187d8f78efc753bfc86e1474cea66ca9e52f63715d522104871c4bf"
     else
-      url "https://github.com/varavelio/rienda/releases/download/v0.1.0-alpha.11/rienda_linux_amd64.tar.gz"
-      sha256 "5c9e2f1236e2945239585cf6ab6ae0dfeff05fa5d6b4794d7e4888d25e35c08c"
+      url "https://github.com/varavelio/rienda/releases/download/v0.1.0-alpha.12/rienda_linux_amd64.tar.gz"
+      sha256 "bd64326611ca76814e2b41b3beb62b72e6225d7b08653cf2163ffbe1a60b2ac6"
     end
   end
 
